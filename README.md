@@ -1,114 +1,225 @@
-# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
+# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
 
 
 
-> **Kaiburr Task Manager - Modern Web Interface**  
+**Created by Kishore N**
 
-> Created by **Kishore N**
 
-> **Kaiburr Task Manager - Modern Web Interface**  
 
-A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+Modern React 19 + TypeScript + Ant Design frontend for the Kaiburr Task Manager. Features a sleek dark theme with full CRUD operations, command execution, and execution history tracking.> **Kaiburr Task Manager - Modern Web Interface**  
 
-> Created by **Kishore N**
+
+
+---> Created by **Kishore N**
+
+
+
+## 🚀 Quick Start> **Kaiburr Task Manager - Modern Web Interface**  
+
+
+
+```powershellA production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+
+# Clone the repository
+
+git clone https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git> Created by **Kishore N**
+
+cd Task-3.-WEB-UI-Forms.
 
 ---
 
-> **Kaiburr Task Manager - Modern Web Interface**  > **Kaiburr Task Manager - Modern Web Interface**  
+# Install dependencies
 
-## 📋 Table of Contents
+npm install> **Kaiburr Task Manager - Modern Web Interface**  > **Kaiburr Task Manager - Modern Web Interface**  
+
+
+
+# Create .env file## 📋 Table of Contents
+
+echo "VITE_API_URL=http://localhost:8080/api" > .env
 
 A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
 
-- [Overview](#overview)
+# Start development server
+
+npm run dev- [Overview](#overview)
+
+```
 
 - [Features](#features)> Created by **Kishore N**> Created by **Kishore N**
 
+**Prerequisites:** Node.js 20+, Backend API running on `http://localhost:8080`
+
 - [Technology Stack](#technology-stack)
+
+---
 
 - [Prerequisites](#prerequisites)---
 
+## 📸 Screenshots
+
 - [Installation & Setup](#installation--setup)
 
-- [Application Screenshots](#application-screenshots)
+### Dashboard
 
-- [Project Structure](#project-structure)
+![Home Page](screenshots/home%20page.png)- [Application Screenshots](#application-screenshots)
 
-- [API Integration](#api-integration)## 📋 Table of Contents
 
-- [Environment Configuration](#environment-configuration)
 
-- [Repository](#repository)A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+### Task Management- [Project Structure](#project-structure)
 
-- [Author](#author)
+![Task List](screenshots/task%20list.png)
 
-- [Overview](#overview)
+![Create Task](screenshots/create%20task%20form.png)- [API Integration](#api-integration)## 📋 Table of Contents
 
----
 
-- [Features](#features)
 
-## 🎯 Overview
+### Task Details & Execution- [Environment Configuration](#environment-configuration)
 
-- [Technology Stack](#technology-stack)
+![Task Details](screenshots/detailes%20of%20the%20task.png)
 
-This project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+![Execution History](screenshots/execution%20history.png)- [Repository](#repository)A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+
+
+
+### API Integration- [Author](#author)
+
+![API Before](screenshots/api%20before.png)
+
+![API After](screenshots/api%20after.png)- [Overview](#overview)
+
+
+
+------
+
+
+
+## ✨ Features- [Features](#features)
+
+
+
+- ✅ **CRUD Operations** - Create, read, search, and delete tasks## 🎯 Overview
+
+- ✅ **Command Execution** - Execute shell commands with real-time output
+
+- ✅ **Execution History** - View complete timeline of past executions- [Technology Stack](#technology-stack)
+
+- ✅ **Dark Theme** - Custom Ant Design dark theme with Inter font
+
+- ✅ **Responsive Design** - Works seamlessly on all devicesThis project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+
+- ✅ **Type Safety** - Full TypeScript implementation
 
 - [Prerequisites](#prerequisites)------
 
+---
+
 **Key Highlights:**
+
+## 🛠️ Tech Stack
 
 - ✅ Full CRUD operations (Create, Read, Update, Delete)- [Installation & Setup](#installation--setup)
 
-- ✅ Real-time task search functionality
+| Technology | Version | Purpose |
 
-- ✅ Command execution with output display- [Application Screenshots](#application-screenshots)
+|------------|---------|---------|- ✅ Real-time task search functionality
 
-- ✅ Execution history tracking with timeline view
+| React | 19.0.0 | Frontend framework |
+
+| TypeScript | 5.5.0 | Type safety |- ✅ Command execution with output display- [Application Screenshots](#application-screenshots)
+
+| Ant Design | 5.0.0 | UI components |
+
+| Vite | 5.4.21 | Build tool |- ✅ Execution history tracking with timeline view
+
+| Axios | 1.5.0 | HTTP client |
 
 - ✅ Dark theme with custom Ant Design configuration- [Project Structure](#project-structure)
 
+---
+
 - ✅ Fully responsive design for all devices
+
+## 📂 Project Structure
 
 - ✅ TypeScript for type safety and better developer experience- [API Integration](#api-integration)## 📋 Table of Contents## 📋 Table of Contents
 
+```
 
+src/
 
----- [Environment Configuration](#environment-configuration)
+├── components/
 
+│   ├── Layout.tsx          # Main layout---- [Environment Configuration](#environment-configuration)
 
+│   ├── Dashboard.tsx       # Home page
 
-## ✨ Features- [Repository](#repository)
+│   ├── TaskList.tsx        # Task table
 
+│   ├── CreateTask.tsx      # Task form
 
+│   └── TaskDetail.tsx      # Task details## ✨ Features- [Repository](#repository)
 
-### 📊 Dashboard- [Author](#author)
+├── services/
+
+│   └── api.ts              # API client
+
+└── types/
+
+    └── task.types.ts       # TypeScript types### 📊 Dashboard- [Author](#author)
+
+```
 
 - Overview statistics (Total Tasks, Active Tasks, Completed Tasks, Success Rate)
 
+---
+
 - Recent tasks display with quick access- [Overview](#overview)- [Overview](#overview)
+
+## 🔌 API Endpoints
 
 - Quick action cards for common operations
 
----
+| Method | Endpoint | Description |
 
-### 📝 Task Management
+|--------|----------|-------------|---
 
-- Create new tasks with form validation- [Features](#features)- [Features](#features)
+| GET | `/api/tasks` | Get all tasks |
 
-- View all tasks in a paginated table
+| POST | `/api/tasks` | Create task |### 📝 Task Management
 
-- Real-time search by task name## 🎯 Overview
+| DELETE | `/api/tasks/{id}` | Delete task |
 
-- Delete tasks with confirmation dialog
+| GET | `/api/tasks/search?name={name}` | Search tasks |- Create new tasks with form validation- [Features](#features)- [Features](#features)
 
-- View detailed task information- [Technology Stack](#technology-stack)- [Technology Stack](#technology-stack)
+| POST | `/api/tasks/{id}/execute` | Execute command |
+
+| GET | `/api/tasks/{id}/executions` | Get history |- View all tasks in a paginated table
 
 
 
-### ⚡ Command ExecutionThis project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+---- Real-time search by task name## 🎯 Overview
 
-- Execute shell commands remotely
+
+
+## 👤 Author- Delete tasks with confirmation dialog
+
+
+
+**Kishore N**  - View detailed task information- [Technology Stack](#technology-stack)- [Technology Stack](#technology-stack)
+
+Kaiburr Assessment - Task 3: WEB UI Forms  
+
+October 2025
+
+
+
+---### ⚡ Command ExecutionThis project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+
+
+
+**Repository:** [https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git](https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git)- Execute shell commands remotely
+
 
 - Real-time output display in modal- [Prerequisites](#prerequisites)- [Prerequisites](#prerequisites)
 
