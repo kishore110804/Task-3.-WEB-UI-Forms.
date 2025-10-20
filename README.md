@@ -1,4 +1,4 @@
-# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
+# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
 
 
 
@@ -6,7 +6,7 @@ A web interface for the Task Manager API built with React 19, TypeScript, and An
 
 
 
-## API EndpointsA web interface for managing tasks built with React 19, TypeScript, and Ant Design. Created by **Kishore N** for the Kaiburr assessment.
+## API EndpointsA web interface for the Task Manager API built with React 19, TypeScript, and Ant Design.
 
 
 
@@ -14,7 +14,7 @@ A web interface for the Task Manager API built with React 19, TypeScript, and An
 
 |--------|----------|-------------|
 
-| GET | `/api/tasks` | Get all tasks |## Features**Created by Kishore N**
+| GET | `/api/tasks` | Get all tasks |## API EndpointsA web interface for managing tasks built with React 19, TypeScript, and Ant Design. Created by **Kishore N** for the Kaiburr assessment.
 
 | POST | `/api/tasks` | Create a task |
 
@@ -22,39 +22,96 @@ A web interface for the Task Manager API built with React 19, TypeScript, and An
 
 | GET | `/api/tasks/search?name={name}` | Search tasks |
 
-| POST | `/api/tasks/{id}/execute` | Execute task command |- Create, view, search, and delete tasks
+| POST | `/api/tasks/{id}/execute` | Execute task command || Method | Endpoint | Description |
 
 | GET | `/api/tasks/{id}/executions` | Get execution history |
 
-- Execute shell commands through the UI
+|--------|----------|-------------|
 
 ## Screenshots
 
-- View execution history with timestampsModern React 19 + TypeScript + Ant Design frontend for the Kaiburr Task Manager. Features a sleek dark theme with full CRUD operations, command execution, and execution history tracking.> **Kaiburr Task Manager - Modern Web Interface**  
+| GET | `/api/tasks` | Get all tasks |## Features**Created by Kishore N**
 
-![Home Page](screenshots/home%20page.png)
+**Home Page**
 
-- Dark theme with clean, modern design
+![Home Page](screenshots/home%20page.png)| POST | `/api/tasks` | Create a task |
 
-![Task List](screenshots/task%20list.png)
 
-- Fully responsive
+
+**Home Page After Creating Tasks**| DELETE | `/api/tasks/{id}` | Delete a task |
+
+![Home After Create](screenshots/home%20page%20after%20create.png)
+
+| GET | `/api/tasks/search?name={name}` | Search tasks |
+
+**Task List**
+
+![Task List](screenshots/task%20list.png)| POST | `/api/tasks/{id}/execute` | Execute task command |- Create, view, search, and delete tasks
+
+
+
+**Create Task Form**| GET | `/api/tasks/{id}/executions` | Get execution history |
 
 ![Create Task](screenshots/create%20task%20form.png)
 
+- Execute shell commands through the UI
+
+**Task Details**
+
+![Task Details](screenshots/detailes%20of%20the%20task.png)## Screenshots
 
 
-![Task Details](screenshots/detailes%20of%20the%20task.png)
 
-## How to Run---> Created by **Kishore N**
+**Delete Confirmation**- View execution history with timestampsModern React 19 + TypeScript + Ant Design frontend for the Kaiburr Task Manager. Features a sleek dark theme with full CRUD operations, command execution, and execution history tracking.> **Kaiburr Task Manager - Modern Web Interface**  
 
-![Execution History](screenshots/execution%20history.png)
+![Delete Confirmation](screenshots/delete%20confirmation%20(1).png)
+
+![Home Page](screenshots/home%20page.png)
+
+**Execution History**
+
+![Execution History](screenshots/execution%20history.png)- Dark theme with clean, modern design
 
 
+
+**API Before Creating Task**![Task List](screenshots/task%20list.png)
 
 ![API Before](screenshots/api%20before.png)
 
-1. Clone this repository
+- Fully responsive
+
+**API After Creating Task**
+
+![API After](screenshots/api%20after.png)![Create Task](screenshots/create%20task%20form.png)
+
+
+
+## Features
+
+
+
+- Create tasks with name, owner, and command![Task Details](screenshots/detailes%20of%20the%20task.png)
+
+- View all tasks in a table
+
+- Search tasks by name## How to Run---> Created by **Kishore N**
+
+- Delete tasks
+
+- Execute shell commands![Execution History](screenshots/execution%20history.png)
+
+- View execution history with timestamps
+
+- Dark theme UI
+
+
+
+---![API Before](screenshots/api%20before.png)
+
+
+
+Made by **Kishore N**1. Clone this repository
+
 
 ![API After](screenshots/api%20after.png)
 
