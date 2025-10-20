@@ -1,0 +1,1156 @@
+# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
+
+
+
+> **Kaiburr Task Manager - Modern Web Interface**  
+
+> Created by **Kishore N**
+
+> **Kaiburr Task Manager - Modern Web Interface**  
+
+A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+
+> Created by **Kishore N**
+
+---
+
+> **Kaiburr Task Manager - Modern Web Interface**  > **Kaiburr Task Manager - Modern Web Interface**  
+
+## 📋 Table of Contents
+
+A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+
+- [Overview](#overview)
+
+- [Features](#features)> Created by **Kishore N**> Created by **Kishore N**
+
+- [Technology Stack](#technology-stack)
+
+- [Prerequisites](#prerequisites)---
+
+- [Installation & Setup](#installation--setup)
+
+- [Application Screenshots](#application-screenshots)
+
+- [Project Structure](#project-structure)
+
+- [API Integration](#api-integration)## 📋 Table of Contents
+
+- [Environment Configuration](#environment-configuration)
+
+- [Repository](#repository)A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.A production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
+
+- [Author](#author)
+
+- [Overview](#overview)
+
+---
+
+- [Features](#features)
+
+## 🎯 Overview
+
+- [Technology Stack](#technology-stack)
+
+This project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+
+- [Prerequisites](#prerequisites)------
+
+**Key Highlights:**
+
+- ✅ Full CRUD operations (Create, Read, Update, Delete)- [Installation & Setup](#installation--setup)
+
+- ✅ Real-time task search functionality
+
+- ✅ Command execution with output display- [Application Screenshots](#application-screenshots)
+
+- ✅ Execution history tracking with timeline view
+
+- ✅ Dark theme with custom Ant Design configuration- [Project Structure](#project-structure)
+
+- ✅ Fully responsive design for all devices
+
+- ✅ TypeScript for type safety and better developer experience- [API Integration](#api-integration)## 📋 Table of Contents## 📋 Table of Contents
+
+
+
+---- [Environment Configuration](#environment-configuration)
+
+
+
+## ✨ Features- [Repository](#repository)
+
+
+
+### 📊 Dashboard- [Author](#author)
+
+- Overview statistics (Total Tasks, Active Tasks, Completed Tasks, Success Rate)
+
+- Recent tasks display with quick access- [Overview](#overview)- [Overview](#overview)
+
+- Quick action cards for common operations
+
+---
+
+### 📝 Task Management
+
+- Create new tasks with form validation- [Features](#features)- [Features](#features)
+
+- View all tasks in a paginated table
+
+- Real-time search by task name## 🎯 Overview
+
+- Delete tasks with confirmation dialog
+
+- View detailed task information- [Technology Stack](#technology-stack)- [Technology Stack](#technology-stack)
+
+
+
+### ⚡ Command ExecutionThis project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+
+- Execute shell commands remotely
+
+- Real-time output display in modal- [Prerequisites](#prerequisites)- [Prerequisites](#prerequisites)
+
+- Terminal-style output formatting
+
+- Exit code status indication**Key Highlights:**
+
+
+
+### 📜 Execution History- ✅ Full CRUD operations (Create, Read, Update, Delete)- [Installation & Setup](#installation--setup)- [Installation & Setup](#installation--setup)
+
+- Complete timeline of all executions
+
+- Expandable output sections- ✅ Real-time task search functionality
+
+- Timestamp tracking for each execution
+
+- Copy-to-clipboard functionality- ✅ Command execution with output display- [Application Screenshots](#application-screenshots)- [Application Screenshots](#application-screenshots)
+
+
+
+### 🎨 User Interface- ✅ Execution history tracking with timeline view
+
+- Dark theme (#000 background) with custom styling
+
+- Inter font family for modern typography- ✅ Dark theme with custom Ant Design configuration- [Project Structure](#project-structure)- [Project Structure](#project-structure)
+
+- Smooth animations and transitions
+
+- Loading states and error handling- ✅ Fully responsive design for all devices
+
+- Fully responsive for mobile, tablet, and desktop
+
+- ✅ TypeScript for type safety and better developer experience- [API Integration](#api-integration)- [API Integration](#api-integration)
+
+---
+
+
+
+## 🛠️ Technology Stack
+
+---- [Environment Configuration](#environment-configuration)- [Environment Configuration](#environment-configuration)
+
+| Technology | Version | Purpose |
+
+|------------|---------|---------|
+
+| **React** | 19.0.0 | Frontend framework |
+
+| **TypeScript** | 5.5.0 | Type-safe JavaScript |## ✨ Features- [Repository](#repository)- [Repository](#repository)
+
+| **Ant Design** | 5.0.0 | UI component library |
+
+| **Vite** | 5.4.21 | Build tool and dev server |
+
+| **Axios** | 1.5.0 | HTTP client for API calls |
+
+| **React Router** | 6.15.0 | Client-side routing |### 📊 Dashboard- [Author](#author)- [Author](#author)
+
+| **Lucide React** | 0.546.0 | Icon library |
+
+| **Day.js** | 1.11.10 | Date formatting utility |- Overview statistics (Total Tasks, Active Tasks, Completed Tasks, Success Rate)
+
+
+
+---- Recent tasks display with quick access
+
+
+
+## 📦 Prerequisites- Quick action cards for common operations
+
+
+
+Before running this application, ensure you have:------
+
+
+
+1. **Node.js** (v20 or higher) - [Download here](https://nodejs.org/)### 📝 Task Management
+
+2. **npm** (comes with Node.js)
+
+3. **Backend API** (Task 1) running on `http://localhost:8080`- Create new tasks with form validation
+
+   - Ensure CORS is enabled in the backend
+
+   - API should be accessible at `http://localhost:8080/api/tasks`- View all tasks in a paginated table
+
+
+
+---- Real-time search by task name## 🎯 Overview## 🎯 Overview
+
+
+
+## 🚀 Installation & Setup- Delete tasks with confirmation dialog
+
+
+
+### 1. Clone the Repository- View detailed task information
+
+
+
+```powershell
+
+git clone https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git
+
+cd Task-3.-WEB-UI-Forms.### ⚡ Command ExecutionThis project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.This project is **Task 3** of the Kaiburr assessment, implementing a complete web UI for the Task Manager REST API (Task 1). The application provides a modern, responsive interface built with React 19 and Ant Design, following industry best practices and design patterns.
+
+```
+
+- Execute shell commands remotely
+
+### 2. Install Dependencies
+
+- Real-time output display in modal
+
+```powershell
+
+npm install- Terminal-style output formatting
+
+```
+
+- Exit code status indication**Key Highlights:****Key Highlights:**
+
+### 3. Configure Environment Variables
+
+
+
+Create a `.env` file in the root directory (or use the provided `.env.example`):
+
+### 📜 Execution History- ✅ Full CRUD operations (Create, Read, Update, Delete)- ✅ Full CRUD operations (Create, Read, Update, Delete)
+
+```env
+
+VITE_API_URL=http://localhost:8080/api- Complete timeline of all executions
+
+```
+
+- Expandable output sections- ✅ Real-time task search functionality- ✅ Real-time task search functionality
+
+### 4. Start the Development Server
+
+- Timestamp tracking for each execution
+
+```powershell
+
+npm run dev- Copy-to-clipboard functionality- ✅ Command execution with output display- ✅ Command execution with output display
+
+```
+
+
+
+The application will start on `http://localhost:3000` (or the next available port).
+
+### 🎨 User Interface- ✅ Execution history tracking with timeline view- ✅ Execution history tracking with timeline view
+
+### 5. Build for Production (Optional)
+
+- Dark theme (#000 background) with custom styling
+
+```powershell
+
+npm run build- Inter font family for modern typography- ✅ Dark theme with custom Ant Design configuration- ✅ Dark theme with custom Ant Design configuration
+
+npm run preview
+
+```- Smooth animations and transitions
+
+
+
+---- Loading states and error handling- ✅ Fully responsive design for all devices- ✅ Fully responsive design for all devices
+
+
+
+## 📸 Application Screenshots- Fully responsive for mobile, tablet, and desktop
+
+
+
+### Home Dashboard- ✅ TypeScript for type safety and better developer experience- ✅ TypeScript for type safety and better developer experience
+
+![Home Page](screenshots/home%20page.png)
+
+*Dashboard showing task statistics, recent tasks, and quick action cards*---
+
+
+
+### Home After Creating Tasks
+
+![Home After Create](screenshots/home%20page%20after%20create.png)
+
+*Dashboard updated with newly created tasks*## 🛠️ Technology Stack
+
+
+
+### Create Task Form------
+
+![Create Task](screenshots/create%20task%20form.png)
+
+*Task creation form with validation - fields include Task Name, Owner, and Command*| Technology | Version | Purpose |
+
+
+
+### Task List View|------------|---------|---------|
+
+![Task List](screenshots/task%20list.png)
+
+*Comprehensive table view with all tasks, search functionality, and action buttons*| **React** | 19.0.0 | Frontend framework |
+
+
+
+### Task Details| **TypeScript** | 5.5.0 | Type-safe JavaScript |## ✨ Features## ✨ Features
+
+![Task Details](screenshots/detailes%20of%20the%20task.png)
+
+*Detailed view showing task information, execution button, and complete task metadata*| **Ant Design** | 5.0.0 | UI component library |
+
+
+
+### Delete Confirmation| **Vite** | 5.4.21 | Build tool and dev server |
+
+![Delete Confirmation](screenshots/delete%20confirmation%20(1).png)
+
+*Confirmation dialog before deleting a task to prevent accidental deletions*| **Axios** | 1.5.0 | HTTP client for API calls |
+
+
+
+### Execution History| **React Router** | 6.15.0 | Client-side routing |### 📊 Dashboard### 📊 Dashboard
+
+![Execution History](screenshots/execution%20history.png)
+
+*Timeline view of all task executions with expandable output sections*| **Lucide React** | 0.546.0 | Icon library |
+
+
+
+### API Integration - Before| **Day.js** | 1.11.10 | Date formatting utility |- Overview statistics (Total Tasks, Active Tasks, Completed Tasks, Success Rate)- Overview statistics (Total Tasks, Active Tasks, Completed Tasks, Success Rate)
+
+![API Before](screenshots/api%20before.png)
+
+*Backend API endpoint before task creation*
+
+
+
+### API Integration - After---- Recent tasks display with quick access- Recent tasks display with quick access
+
+![API After](screenshots/api%20after.png)
+
+*Backend API response after successful task creation, showing data persistence*
+
+
+
+---## 📦 Prerequisites- Quick action cards for common operations- Quick action cards for common operations
+
+
+
+## 📂 Project Structure
+
+
+
+```Before running this application, ensure you have:
+
+task3/
+
+├── public/                  # Static assets
+
+├── src/
+
+│   ├── components/          # React components1. **Node.js** (v20 or higher) - [Download here](https://nodejs.org/)### 📝 Task Management### 📝 Task Management
+
+│   │   ├── Layout.tsx       # Main layout with header/footer
+
+│   │   ├── Dashboard.tsx    # Home page dashboard2. **npm** (comes with Node.js)
+
+│   │   ├── TaskList.tsx     # Task table with search
+
+│   │   ├── CreateTask.tsx   # Task creation form3. **Backend API** (Task 1) running on `http://localhost:8080`- Create new tasks with form validation- Create new tasks with form validation
+
+│   │   └── TaskDetail.tsx   # Task details & execution
+
+│   ├── services/   - Ensure CORS is enabled in the backend
+
+│   │   └── api.ts           # Axios API client
+
+│   ├── types/   - API should be accessible at `http://localhost:8080/api/tasks`- View all tasks in a paginated table- View all tasks in a paginated table
+
+│   │   └── task.types.ts    # TypeScript interfaces
+
+│   ├── styles.css           # Global styles & theme
+
+│   ├── main.tsx             # Application entry point
+
+│   └── App.tsx              # Route configuration---- Real-time search by task name- Real-time search by task name
+
+├── screenshots/             # Application screenshots
+
+├── .env                     # Environment variables
+
+├── .env.example             # Environment template
+
+├── package.json             # Dependencies## 🚀 Installation & Setup- Delete tasks with confirmation dialog- Delete tasks with confirmation dialog
+
+├── tsconfig.json            # TypeScript configuration
+
+├── vite.config.ts           # Vite configuration
+
+└── README.md                # This file
+
+```### 1. Clone the Repository- View detailed task information- View detailed task information
+
+
+
+---
+
+
+
+## 🔌 API Integration```powershell
+
+
+
+The application integrates with the Task Manager REST API (Task 1) with the following endpoints:git clone https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git
+
+
+
+| Method | Endpoint | Description |cd Task-3.-WEB-UI-Forms.### ⚡ Command Execution### ⚡ Command Execution
+
+|--------|----------|-------------|
+
+| `GET` | `/api/tasks` | Retrieve all tasks |```
+
+| `GET` | `/api/tasks/{id}` | Get task by ID |
+
+| `POST` | `/api/tasks` | Create new task |- Execute shell commands remotely- Execute shell commands remotely
+
+| `DELETE` | `/api/tasks/{id}` | Delete task |
+
+| `GET` | `/api/tasks/search?name={name}` | Search tasks by name |### 2. Install Dependencies
+
+| `POST` | `/api/tasks/{id}/execute` | Execute task command |
+
+| `GET` | `/api/tasks/{id}/executions` | Get execution history |- Real-time output display in modal- Real-time output display in modal
+
+
+
+**Example API Request:**```powershell
+
+
+
+```javascriptnpm install- Terminal-style output formatting- Terminal-style output formatting
+
+// Create Task
+
+POST http://localhost:8080/api/tasks```
+
+Content-Type: application/json
+
+- Exit code status indication- Exit code status indication
+
+{
+
+  "name": "List Files",### 3. Configure Environment Variables
+
+  "owner": "Kishore N",
+
+  "command": "dir"
+
+}
+
+```Create a `.env` file in the root directory (or use the provided `.env.example`):
+
+
+
+---### 📜 Execution History### 📜 Execution History
+
+
+
+## ⚙️ Environment Configuration```env
+
+
+
+The application uses environment variables for configuration. Create a `.env` file:VITE_API_URL=http://localhost:8080/api- Complete timeline of all executions- Complete timeline of all executions
+
+
+
+```env```
+
+# Backend API URL
+
+VITE_API_URL=http://localhost:8080/api- Expandable output sections- Expandable output sections
+
+
+
+# Optional: Port configuration (if needed)### 4. Start the Development Server
+
+# PORT=3000
+
+```- Timestamp tracking for each execution- Timestamp tracking for each execution
+
+
+
+**Important Notes:**```powershell
+
+- The backend must have CORS enabled to allow requests from `http://localhost:3000`
+
+- Ensure the backend is running before starting the frontendnpm run dev- Copy-to-clipboard functionality- Copy-to-clipboard functionality
+
+- API timeout is set to 10 seconds (configurable in `src/services/api.ts`)
+
+```
+
+---
+
+
+
+## 🔗 Repository
+
+The application will start on `http://localhost:3000` (or the next available port).
+
+**GitHub Repository:** [https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git](https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git)
+
+### 🎨 User Interface### 🎨 User Interface
+
+---
+
+### 5. Build for Production (Optional)
+
+## 👤 Author
+
+- Dark theme (#000 background) with custom styling- Dark theme (#000 background) with custom styling
+
+**Kishore N**
+
+```powershell
+
+- Created as part of the Kaiburr Assessment
+
+- Task 3: WEB UI Forms Implementationnpm run build- Inter font family for modern typography- Inter font family for modern typography
+
+- Date: October 2025
+
+npm run preview
+
+---
+
+```- Smooth animations and transitions- Smooth animations and transitions
+
+## 📝 Additional Notes
+
+
+
+- **Dark Theme:** The application uses a custom dark theme with `#000` background and carefully selected gray tones for optimal readability.
+
+- **Inter Font:** Modern, clean typography using the Inter font family from Google Fonts.---- Loading states and error handling- Loading states and error handling
+
+- **Responsive Design:** Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices.
+
+- **Form Validation:** Client-side validation for all forms to ensure data integrity before API calls.
+
+- **Error Handling:** Comprehensive error handling with user-friendly messages using Ant Design's message component.
+
+- **Loading States:** Visual feedback during API calls to improve user experience.## 📸 Application Screenshots- Fully responsive for mobile, tablet, and desktop- Fully responsive for mobile, tablet, and desktop
+
+
+
+---
+
+
+
+**Built with ❤️ by Kishore N**### Home Dashboard
+
+
+![Home Page](screenshots/home%20page.png)
+
+*Dashboard showing task statistics, recent tasks, and quick action cards*------
+
+
+
+### Home After Creating Tasks
+
+![Home After Create](screenshots/home%20page%20after%20create.png)
+
+*Dashboard updated with newly created tasks*## 🛠️ Technology Stack## 🛠️ Technology Stack
+
+
+
+### Create Task Form
+
+![Create Task](screenshots/create%20task%20form.png)
+
+*Task creation form with validation - fields include Task Name, Owner, and Command*| Technology | Version | Purpose || Technology | Version | Purpose |
+
+
+
+### Task List View|------------|---------|---------||------------|---------|---------|
+
+![Task List](screenshots/task%20list.png)
+
+*Comprehensive table view with all tasks, search functionality, and action buttons*| **React** | 19.0.0 | Frontend framework || **React** | 19.0.0 | Frontend framework |
+
+
+
+### Task Details| **TypeScript** | 5.5.0 | Type-safe JavaScript || **TypeScript** | 5.5.0 | Type-safe JavaScript |
+
+![Task Details](screenshots/detailes%20of%20the%20task.png)
+
+*Detailed view showing task information, execution button, and complete task metadata*| **Ant Design** | 5.0.0 | UI component library || **Ant Design** | 5.0.0 | UI component library |
+
+
+
+### Delete Confirmation| **Vite** | 5.4.21 | Build tool and dev server || **Vite** | 5.4.21 | Build tool and dev server |
+
+![Delete Confirmation](screenshots/delete%20confirmation%20(1).png)
+
+*Confirmation dialog before deleting a task to prevent accidental deletions*| **Axios** | 1.5.0 | HTTP client for API calls || **Axios** | 1.5.0 | HTTP client for API calls |
+
+
+
+### Execution History| **React Router** | 6.15.0 | Client-side routing || **React Router** | 6.15.0 | Client-side routing |
+
+![Execution History](screenshots/execution%20history.png)
+
+*Timeline view of all task executions with expandable output sections*| **Lucide React** | 0.546.0 | Icon library || **Lucide React** | 0.546.0 | Icon library |
+
+
+
+### API Integration - Before| **Day.js** | 1.11.10 | Date formatting utility || **Day.js** | 1.11.10 | Date formatting utility |
+
+![API Before](screenshots/api%20before.png)
+
+*Backend API endpoint before task creation*
+
+
+
+### API Integration - After------
+
+![API After](screenshots/api%20after.png)
+
+*Backend API response after successful task creation, showing data persistence*
+
+
+
+---## 📦 Prerequisites## 📦 Prerequisites
+
+
+
+## 📂 Project Structure
+
+
+
+```Before running this application, ensure you have:Before running this application, ensure you have:
+
+task3/
+
+├── public/                  # Static assets
+
+├── src/
+
+│   ├── components/          # React components1. **Node.js** (v20 or higher) - [Download here](https://nodejs.org/)1. **Node.js** (v20 or higher) - [Download here](https://nodejs.org/)
+
+│   │   ├── Layout.tsx       # Main layout with header/footer
+
+│   │   ├── Dashboard.tsx    # Home page dashboard2. **npm** (comes with Node.js)2. **npm** (comes with Node.js)
+
+│   │   ├── TaskList.tsx     # Task table with search
+
+│   │   ├── CreateTask.tsx   # Task creation form3. **Backend API** (Task 1) running on `http://localhost:8080`3. **Backend API** (Task 1) running on `http://localhost:8080`
+
+│   │   └── TaskDetail.tsx   # Task details & execution
+
+│   ├── services/   - Ensure CORS is enabled in the backend   - Ensure CORS is enabled in the backend
+
+│   │   └── api.ts           # Axios API client
+
+│   ├── types/   - API should be accessible at `http://localhost:8080/api/tasks`   - API should be accessible at `http://localhost:8080/api/tasks`
+
+│   │   └── task.types.ts    # TypeScript interfaces
+
+│   ├── styles.css           # Global styles & theme
+
+│   ├── main.tsx             # Application entry point
+
+│   └── App.tsx              # Route configuration------
+
+├── screenshots/             # Application screenshots
+
+├── .env                     # Environment variables
+
+├── .env.example             # Environment template
+
+├── package.json             # Dependencies## 🚀 Installation & Setup## 🚀 Installation & Setup
+
+├── tsconfig.json            # TypeScript configuration
+
+├── vite.config.ts           # Vite configuration
+
+└── README.md                # This file
+
+```### 1. Clone the Repository### 1. Clone the Repository
+
+
+
+---
+
+
+
+## 🔌 API Integration```powershell```powershell
+
+
+
+The application integrates with the Task Manager REST API (Task 1) with the following endpoints:git clone https://github.com/kishore110804/Task-3.-WEB-UI-Forms..gitgit clone https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git
+
+
+
+| Method | Endpoint | Description |cd Task-3.-WEB-UI-Forms.cd Task-3.-WEB-UI-Forms.
+
+|--------|----------|-------------|
+
+| `GET` | `/api/tasks` | Retrieve all tasks |``````
+
+| `GET` | `/api/tasks/{id}` | Get task by ID |
+
+| `POST` | `/api/tasks` | Create new task |
+
+| `DELETE` | `/api/tasks/{id}` | Delete task |
+
+| `GET` | `/api/tasks/search?name={name}` | Search tasks by name |### 2. Install Dependencies### 2. Install Dependencies
+
+| `POST` | `/api/tasks/{id}/execute` | Execute task command |
+
+| `GET` | `/api/tasks/{id}/executions` | Get execution history |
+
+
+
+**Example API Request:**```powershell```powershell
+
+
+
+```javascriptnpm installnpm install
+
+// Create Task
+
+POST http://localhost:8080/api/tasks``````
+
+Content-Type: application/json
+
+
+
+{
+
+  "name": "List Files",### 3. Configure Environment Variables### 3. Configure Environment Variables
+
+  "owner": "Kishore N",
+
+  "command": "dir"
+
+}
+
+```Create a `.env` file in the root directory (or use the provided `.env.example`):Create a `.env` file in the root directory (or use the provided `.env.example`):
+
+
+
+---
+
+
+
+## ⚙️ Environment Configuration```env```env
+
+
+
+The application uses environment variables for configuration. Create a `.env` file:VITE_API_URL=http://localhost:8080/apiVITE_API_URL=http://localhost:8080/api
+
+
+
+```env``````
+
+# Backend API URL
+
+VITE_API_URL=http://localhost:8080/api
+
+
+
+# Optional: Port configuration (if needed)### 4. Start the Development Server### 4. Start the Development Server
+
+# PORT=3000
+
+```
+
+
+
+**Important Notes:**```powershell```powershell
+
+- The backend must have CORS enabled to allow requests from `http://localhost:3000`
+
+- Ensure the backend is running before starting the frontendnpm run devnpm run dev
+
+- API timeout is set to 10 seconds (configurable in `src/services/api.ts`)
+
+``````
+
+---
+
+
+
+## 🔗 Repository
+
+The application will start on `http://localhost:3000` (or the next available port).The application will start on `http://localhost:3000` (or the next available port).
+
+**GitHub Repository:** [https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git](https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git)
+
+
+
+---
+
+### 5. Build for Production (Optional)### 5. Build for Production (Optional)
+
+## 👤 Author
+
+
+
+**Kishore N**
+
+```powershell```powershell
+
+- Created as part of the Kaiburr Assessment
+
+- Task 3: WEB UI Forms Implementationnpm run buildnpm run build
+
+- Date: October 2025
+
+npm run previewnpm run preview
+
+---
+
+``````
+
+## 📝 Additional Notes
+
+
+
+- **Dark Theme:** The application uses a custom dark theme with `#000` background and carefully selected gray tones for optimal readability.
+
+- **Inter Font:** Modern, clean typography using the Inter font family from Google Fonts.------
+
+- **Responsive Design:** Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices.
+
+- **Form Validation:** Client-side validation for all forms to ensure data integrity before API calls.
+
+- **Error Handling:** Comprehensive error handling with user-friendly messages using Ant Design's message component.
+
+- **Loading States:** Visual feedback during API calls to improve user experience.## 📸 Application Screenshots## 📸 Application Screenshots
+
+
+
+---
+
+
+
+**Built with ❤️ by Kishore N**### Home Dashboard### Home Dashboard
+
+
+![Home Page](screenshots/home%20page.png)![Home Page](screenshots/home%20page.png)
+
+*Dashboard showing task statistics, recent tasks, and quick action cards**Dashboard showing task statistics, recent tasks, and quick action cards*
+
+
+
+### Home After Creating Tasks### Home After Creating Tasks
+
+![Home After Create](screenshots/home%20page%20after%20create.png)![Home After Create](screenshots/home%20page%20after%20create.png)
+
+*Dashboard updated with newly created tasks**Dashboard updated with newly created tasks*
+
+
+
+### Create Task Form### Create Task Form
+
+![Create Task](screenshots/create%20task%20form.png)![Create Task](screenshots/create%20task%20form.png)
+
+*Task creation form with validation - fields include Task Name, Owner, and Command**Task creation form with validation - fields include Task Name, Owner, and Command*
+
+
+
+### Task List View### Task List View
+
+![Task List](screenshots/task%20list.png)![Task List](screenshots/task%20list.png)
+
+*Comprehensive table view with all tasks, search functionality, and action buttons**Comprehensive table view with all tasks, search functionality, and action buttons*
+
+
+
+### Task Details### Task Details
+
+![Task Details](screenshots/detailes%20of%20the%20task.png)![Task Details](screenshots/detailes%20of%20the%20task.png)
+
+*Detailed view showing task information, execution button, and complete task metadata**Detailed view showing task information, execution button, and complete task metadata*
+
+
+
+### Delete Confirmation### Delete Confirmation
+
+![Delete Confirmation](screenshots/delete%20confirmation%20(1).png)![Delete Confirmation](screenshots/delete%20confirmation%20(1).png)
+
+*Confirmation dialog before deleting a task to prevent accidental deletions**Confirmation dialog before deleting a task to prevent accidental deletions*
+
+
+
+### Execution History### Execution History
+
+![Execution History](screenshots/execution%20history.png)![Execution History](screenshots/execution%20history.png)
+
+*Timeline view of all task executions with expandable output sections**Timeline view of all task executions with expandable output sections*
+
+
+
+### API Integration - Before### API Integration - Before
+
+![API Before](screenshots/api%20before.png)![API Before](screenshots/api%20before.png)
+
+*Backend API endpoint before task creation**Backend API endpoint before task creation*
+
+
+
+### API Integration - After### API Integration - After
+
+![API After](screenshots/api%20after.png)![API After](screenshots/api%20after.png)
+
+*Backend API response after successful task creation, showing data persistence**Backend API response after successful task creation, showing data persistence*
+
+
+
+------
+
+
+
+## 📂 Project Structure## 📂 Project Structure
+
+
+
+``````
+
+task3/task3/
+
+├── public/                  # Static assets├── public/                  # Static assets
+
+├── src/├── src/
+
+│   ├── components/          # React components│   ├── components/          # React components
+
+│   │   ├── Layout.tsx       # Main layout with header/footer│   │   ├── Layout.tsx       # Main layout with header/footer
+
+│   │   ├── Dashboard.tsx    # Home page dashboard│   │   ├── Dashboard.tsx    # Home page dashboard
+
+│   │   ├── TaskList.tsx     # Task table with search│   │   ├── TaskList.tsx     # Task table with search
+
+│   │   ├── CreateTask.tsx   # Task creation form│   │   ├── CreateTask.tsx   # Task creation form
+
+│   │   └── TaskDetail.tsx   # Task details & execution│   │   └── TaskDetail.tsx   # Task details & execution
+
+│   ├── services/│   ├── services/
+
+│   │   └── api.ts           # Axios API client│   │   └── api.ts           # Axios API client
+
+│   ├── types/│   ├── types/
+
+│   │   └── task.types.ts    # TypeScript interfaces│   │   └── task.types.ts    # TypeScript interfaces
+
+│   ├── styles.css           # Global styles & theme│   ├── styles.css           # Global styles & theme
+
+│   ├── main.tsx             # Application entry point│   ├── main.tsx             # Application entry point
+
+│   └── App.tsx              # Route configuration│   └── App.tsx              # Route configuration
+
+├── screenshots/             # Application screenshots├── screenshots/             # Application screenshots
+
+├── .env                     # Environment variables├── .env                     # Environment variables
+
+├── .env.example             # Environment template├── .env.example             # Environment template
+
+├── package.json             # Dependencies├── package.json             # Dependencies
+
+├── tsconfig.json            # TypeScript configuration├── tsconfig.json            # TypeScript configuration
+
+├── vite.config.ts           # Vite configuration├── vite.config.ts           # Vite configuration
+
+└── README.md                # This file└── README.md                # This file
+
+``````
+
+
+
+------
+
+
+
+## 🔌 API Integration## 🔌 API Integration
+
+
+
+The application integrates with the Task Manager REST API (Task 1) with the following endpoints:The application integrates with the Task Manager REST API (Task 1) with the following endpoints:
+
+
+
+| Method | Endpoint | Description || Method | Endpoint | Description |
+
+|--------|----------|-------------||--------|----------|-------------|
+
+| `GET` | `/api/tasks` | Retrieve all tasks || `GET` | `/api/tasks` | Retrieve all tasks |
+
+| `GET` | `/api/tasks/{id}` | Get task by ID || `GET` | `/api/tasks/{id}` | Get task by ID |
+
+| `POST` | `/api/tasks` | Create new task || `POST` | `/api/tasks` | Create new task |
+
+| `DELETE` | `/api/tasks/{id}` | Delete task || `DELETE` | `/api/tasks/{id}` | Delete task |
+
+| `GET` | `/api/tasks/search?name={name}` | Search tasks by name || `GET` | `/api/tasks/search?name={name}` | Search tasks by name |
+
+| `POST` | `/api/tasks/{id}/execute` | Execute task command || `POST` | `/api/tasks/{id}/execute` | Execute task command |
+
+| `GET` | `/api/tasks/{id}/executions` | Get execution history || `GET` | `/api/tasks/{id}/executions` | Get execution history |
+
+
+
+**Example API Request:****Example API Request:**
+
+
+
+```javascript```javascript
+
+// Create Task// Create Task
+
+POST http://localhost:8080/api/tasksPOST http://localhost:8080/api/tasks
+
+Content-Type: application/jsonContent-Type: application/json
+
+
+
+{{
+
+  "name": "List Files",  "name": "List Files",
+
+  "owner": "Kishore N",  "owner": "Kishore N",
+
+  "command": "dir"  "command": "dir"
+
+}}
+
+``````
+
+
+
+------
+
+
+
+## ⚙️ Environment Configuration## ⚙️ Environment Configuration
+
+
+
+The application uses environment variables for configuration. Create a `.env` file:The application uses environment variables for configuration. Create a `.env` file:
+
+
+
+```env```env
+
+# Backend API URL# Backend API URL
+
+VITE_API_URL=http://localhost:8080/apiVITE_API_URL=http://localhost:8080/api
+
+
+
+# Optional: Port configuration (if needed)# Optional: Port configuration (if needed)
+
+# PORT=3000# PORT=3000
+
+``````
+
+
+
+**Important Notes:****Important Notes:**
+
+- The backend must have CORS enabled to allow requests from `http://localhost:3000`- The backend must have CORS enabled to allow requests from `http://localhost:3000`
+
+- Ensure the backend is running before starting the frontend- Ensure the backend is running before starting the frontend
+
+- API timeout is set to 10 seconds (configurable in `src/services/api.ts`)- API timeout is set to 10 seconds (configurable in `src/services/api.ts`)
+
+
+
+------
+
+
+
+## 🔗 Repository## 🔗 Repository
+
+
+
+**GitHub Repository:** [https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git](https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git)**GitHub Repository:** [https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git](https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git)
+
+
+
+------
+
+
+
+## 👤 Author## 👤 Author
+
+
+
+**Kishore N****Kishore N**
+
+
+
+- Created as part of the Kaiburr Assessment- Created as part of the Kaiburr Assessment
+
+- Task 3: WEB UI Forms Implementation- Task 3: WEB UI Forms Implementation
+
+- Date: October 2025- Date: October 2025
+
+
+
+------
+
+
+
+## 📝 Additional Notes## 📝 Additional Notes
+
+
+
+- **Dark Theme:** The application uses a custom dark theme with `#000` background and carefully selected gray tones for optimal readability.- **Dark Theme:** The application uses a custom dark theme with `#000` background and carefully selected gray tones for optimal readability.
+
+- **Inter Font:** Modern, clean typography using the Inter font family from Google Fonts.- **Inter Font:** Modern, clean typography using the Inter font family from Google Fonts.
+
+- **Responsive Design:** Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices.- **Responsive Design:** Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices.
+
+- **Form Validation:** Client-side validation for all forms to ensure data integrity before API calls.- **Form Validation:** Client-side validation for all forms to ensure data integrity before API calls.
+
+- **Error Handling:** Comprehensive error handling with user-friendly messages using Ant Design's message component.- **Error Handling:** Comprehensive error handling with user-friendly messages using Ant Design's message component.
+
+- **Loading States:** Visual feedback during API calls to improve user experience.- **Loading States:** Visual feedback during API calls to improve user experience.
+
+
+
+------
+
+
+
+**Built with ❤️ by Kishore N****Built with ❤️ by Kishore N**
+
