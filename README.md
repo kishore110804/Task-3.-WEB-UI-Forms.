@@ -1,46 +1,90 @@
-# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
+# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms# Task 3 - WEB UI Forms
 
 
 
-A web interface for managing tasks built with React 19, TypeScript, and Ant Design. Created by **Kishore N** for the Kaiburr assessment.
+A web interface for the Task Manager API built with React 19, TypeScript, and Ant Design.
 
 
 
-## Features**Created by Kishore N**
+## API EndpointsA web interface for managing tasks built with React 19, TypeScript, and Ant Design. Created by **Kishore N** for the Kaiburr assessment.
 
 
 
-- Create, view, search, and delete tasks
+| Method | Endpoint | Description |
+
+|--------|----------|-------------|
+
+| GET | `/api/tasks` | Get all tasks |## Features**Created by Kishore N**
+
+| POST | `/api/tasks` | Create a task |
+
+| DELETE | `/api/tasks/{id}` | Delete a task |
+
+| GET | `/api/tasks/search?name={name}` | Search tasks |
+
+| POST | `/api/tasks/{id}/execute` | Execute task command |- Create, view, search, and delete tasks
+
+| GET | `/api/tasks/{id}/executions` | Get execution history |
 
 - Execute shell commands through the UI
 
+## Screenshots
+
 - View execution history with timestampsModern React 19 + TypeScript + Ant Design frontend for the Kaiburr Task Manager. Features a sleek dark theme with full CRUD operations, command execution, and execution history tracking.> **Kaiburr Task Manager - Modern Web Interface**  
+
+![Home Page](screenshots/home%20page.png)
 
 - Dark theme with clean, modern design
 
+![Task List](screenshots/task%20list.png)
+
 - Fully responsive
 
+![Create Task](screenshots/create%20task%20form.png)
 
+
+
+![Task Details](screenshots/detailes%20of%20the%20task.png)
 
 ## How to Run---> Created by **Kishore N**
 
+![Execution History](screenshots/execution%20history.png)
 
+
+
+![API Before](screenshots/api%20before.png)
 
 1. Clone this repository
 
+![API After](screenshots/api%20after.png)
+
 ```bash
+
+## Features
 
 git clone https://github.com/kishore110804/Task-3.-WEB-UI-Forms..git## 🚀 Quick Start> **Kaiburr Task Manager - Modern Web Interface**  
 
-cd Task-3.-WEB-UI-Forms.
+- Create tasks with name, owner, and command
 
-```
+- View all tasks in a tablecd Task-3.-WEB-UI-Forms.
 
+- Search tasks by name
 
+- Delete tasks```
+
+- Execute shell commands
+
+- View execution history with timestamps
+
+- Dark theme UI
 
 2. Install dependencies```powershellA production-ready React 19 + TypeScript + Ant Design frontend application for managing tasks with command execution capabilities. Features a sleek dark theme with the Inter font family, providing an intuitive interface for CRUD operations, task execution, and history tracking.
 
+---
+
 ```bash
+
+Made by **Kishore N**
 
 npm install# Clone the repository
 
